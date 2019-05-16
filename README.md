@@ -1,5 +1,9 @@
 # eos-ltc-trx-etc-wallet-cli-build
+<<<<<<< HEAD
 #### 1.[EOS](EOScli/EOSComandLine.md)
+=======
+#### 1.  [EOS](EOScli/EOSComandLine.md)
+>>>>>>> e562f5390a04f1e72652791a525f1483f2e4ca6b
 
 #### 2.[TRX](TRXcli/TRXCli搭建.md)
 
