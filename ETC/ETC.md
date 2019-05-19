@@ -79,9 +79,25 @@ parity --chain=classic account new
 
 keystore 文件在 ~/.local/share/io.parity.ethereum/keys/classic 里面
 
-#### 9.转账
+#### 9.转账(前提是要安装好了node 和 web3)
 
 ```
-
+node
+var Web3=require("web3")
+var web3=new Web3(new Web3.providers.WebsocketProvider("ws://127.0.0.1:8546"))
+转账：
+web3.eth.sendTransaction({from:fromaddress,to:toaddress, gas:"21000", value:value}).then(console.log)
 ```
 
+转账：
+
+![Alt text](./picture/5.png)
+
+转账信息：
+
+![Alt text](./picture/6.png)
+
+查询是否到账
+![Alt text](./picture/8.png)
+
+到账！
