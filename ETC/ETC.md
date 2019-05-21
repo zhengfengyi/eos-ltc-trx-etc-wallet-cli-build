@@ -79,7 +79,17 @@ parity --chain=classic account new
 
 keystore 文件在 ~/.local/share/io.parity.ethereum/keys/classic 里面
 
-#### 9.转账(前提是要安装好了node 和 web3)
+#### 9.同步节点
+
+```
+parity --chain=classic --light 可能到后面出现停在一个区块高度无法继续同步的问题
+
+parity --chain=classic     于是采用的是这个full模式
+```
+
+
+
+#### 9.待节点同步完（1天左右时间）转账(前提是要安装好了node 和 web3)
 
 ```
 node
