@@ -11,6 +11,8 @@
 选任意一个接入点，然后
 alias cleos="cleos -u https://jungle2.cryptolion.io:80"
 source .bashrc
+启动key服务
+keosd & 
 ```
 
 #### 2.创建钱包
@@ -42,7 +44,7 @@ cleos create key --to-console
 
 #### 并记下密钥对
 
-#### 5. 把对应网站注册好并有EOS账号导入钱包 owner key 和 active key
+#### 5. 把对应网站注册好并有EOS账号导入钱包 owner key 和 active key（由于需要注册EOS账号，需要一个存在的账号去注册新账号，注册第一个账号可以把密钥对记下来去<https://eos-account-creator.com/>注册）
 
 ````
 cleos wallet import -n walletname --private-key ${privatekey} 
